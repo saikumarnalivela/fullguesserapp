@@ -15,6 +15,11 @@
 		3F05DA4B2226893F0050501F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F05DA492226893F0050501F /* LaunchScreen.storyboard */; };
 		3F05DA562226893F0050501F /* GuesserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F05DA552226893F0050501F /* GuesserTests.swift */; };
 		3F05DA612226893F0050501F /* GuesserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F05DA602226893F0050501F /* GuesserUITests.swift */; };
+		3F5BA9DA222710F2008060A7 /* icons8-cards-filled-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5BA9D9222710F2008060A7 /* icons8-cards-filled-32.png */; };
+		3F5BA9DC22271196008060A7 /* icons8-time-machine-filled-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5BA9DB22271196008060A7 /* icons8-time-machine-filled-32.png */; };
+		3F5BA9DE222711FA008060A7 /* icons8-statistics-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5BA9DD222711FA008060A7 /* icons8-statistics-32.png */; };
+		3F76F0F522268C4B009DF9C3 /* Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F76F0F422268C4B009DF9C3 /* Guess.swift */; };
+		3F76F0F722268F41009DF9C3 /* ThridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F76F0F622268F41009DF9C3 /* ThridViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		3F05DA5C2226893F0050501F /* GuesserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuesserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F05DA602226893F0050501F /* GuesserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuesserUITests.swift; sourceTree = "<group>"; };
 		3F05DA622226893F0050501F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F5BA9D9222710F2008060A7 /* icons8-cards-filled-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-cards-filled-32.png"; path = "../../icons8-cards-filled-32.png"; sourceTree = "<group>"; };
+		3F5BA9DB22271196008060A7 /* icons8-time-machine-filled-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-time-machine-filled-32.png"; path = "../../icons8-time-machine-filled-32.png"; sourceTree = "<group>"; };
+		3F5BA9DD222711FA008060A7 /* icons8-statistics-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-statistics-32.png"; path = "../../icons8-statistics-32.png"; sourceTree = "<group>"; };
+		3F76F0F422268C4B009DF9C3 /* Guess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess.swift; sourceTree = "<group>"; };
+		3F76F0F622268F41009DF9C3 /* ThridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThridViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +113,12 @@
 				3F05DA402226893E0050501F /* FirstViewController.swift */,
 				3F05DA422226893E0050501F /* SecondViewController.swift */,
 				3F05DA442226893E0050501F /* Main.storyboard */,
+				3F76F0F622268F41009DF9C3 /* ThridViewController.swift */,
+				3F76F0F422268C4B009DF9C3 /* Guess.swift */,
 				3F05DA472226893F0050501F /* Assets.xcassets */,
+				3F5BA9DD222711FA008060A7 /* icons8-statistics-32.png */,
+				3F5BA9DB22271196008060A7 /* icons8-time-machine-filled-32.png */,
+				3F5BA9D9222710F2008060A7 /* icons8-cards-filled-32.png */,
 				3F05DA492226893F0050501F /* LaunchScreen.storyboard */,
 				3F05DA4C2226893F0050501F /* Info.plist */,
 			);
@@ -234,7 +249,10 @@
 			files = (
 				3F05DA4B2226893F0050501F /* LaunchScreen.storyboard in Resources */,
 				3F05DA482226893F0050501F /* Assets.xcassets in Resources */,
+				3F5BA9DA222710F2008060A7 /* icons8-cards-filled-32.png in Resources */,
 				3F05DA462226893E0050501F /* Main.storyboard in Resources */,
+				3F5BA9DC22271196008060A7 /* icons8-time-machine-filled-32.png in Resources */,
+				3F5BA9DE222711FA008060A7 /* icons8-statistics-32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F05DA432226893E0050501F /* SecondViewController.swift in Sources */,
+				3F76F0F522268C4B009DF9C3 /* Guess.swift in Sources */,
+				3F76F0F722268F41009DF9C3 /* ThridViewController.swift in Sources */,
 				3F05DA3F2226893E0050501F /* AppDelegate.swift in Sources */,
 				3F05DA412226893E0050501F /* FirstViewController.swift in Sources */,
 			);
