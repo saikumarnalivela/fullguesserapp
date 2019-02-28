@@ -25,12 +25,28 @@ class ThridViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        statisticsvalues()
+        if Guesser.shared.numGuesses() == 0{
+            MinLBL.text = "0"
+            MaxLBL.text = "0"
+            MeanLBL.text = "0"
+            StdLBL.text = "0"
+        }
+        else{
+            statisticsvalues()
+        }
 
         // Do any additional setup after loading the view.
     }
     override func viewWillAppear(_ animated: Bool) {
-        statisticsvalues()
+        if Guesser.shared.numGuesses() == 0{
+            MinLBL.text = "0"
+            MaxLBL.text = "0"
+            MeanLBL.text = "0"
+            StdLBL.text = "0"
+        }
+        else{
+            statisticsvalues()
+        }
     }
     func statisticsvalues(){
         MinLBL.text = String(Guesser.shared.minimunAttempts())

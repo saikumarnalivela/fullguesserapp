@@ -60,6 +60,7 @@ class Guesser{
     
     func clearStatistics(){
         guesses = []
+        _numAttempts = 0
     }
     
     
