@@ -17,6 +17,8 @@ class FirstViewController: UIViewController {
         let input = Int(InputTF.text!)
         if input == nil{
             displayerror()
+        }else if input! < 0 || input! > 10{
+            valueerror()
         }
         else{
         ResultsTF.text = Guesser.shared.amIRight(guess: input!)
@@ -48,6 +50,17 @@ class FirstViewController: UIViewController {
         let alert = UIAlertController(title: "Error",
                                       message: "Please Enter the vaild Integer In the field",
             preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default,
+                                      handler: nil))
+        self.present(alert, animated: true, completion: nil)
+        Guesser.shared.createNewProblem()
+        InputTF.text = ""
+    }
+    
+    func valueerror(){
+        let alert = UIAlertController(title: "Error",
+                                      message: "Please Enter the vaild Integer In between 0 and 10",
+                                      preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default,
                                       handler: nil))
         self.present(alert, animated: true, completion: nil)
